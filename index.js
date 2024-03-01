@@ -18,7 +18,7 @@ app.get('/pdf', async (req, res) => {
     margin: {
       top: '1cm',
       right: '1cm',
-      bottom: '1cm',
+      bottom: '0cm',
       left: '1cm',
     },
   });
